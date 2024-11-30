@@ -1,0 +1,73 @@
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h1 { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; 
+  font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #ffcccc;
+}
+
+canvas {
+  display: block;
+  background: #ffffff;
+  cursor: crosshair;
+}
+
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px; 
+  margin: 0;    
+  border-bottom: 1px solid #ccc;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding: 5px; 
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  margin: 0; 
+}

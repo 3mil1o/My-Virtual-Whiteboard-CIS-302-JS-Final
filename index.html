@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Virtual Whiteboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Virtual Whiteboard</h1>
+  </header>
+  <div class="toolbar">
+    <button id="clearBoard">Clear Canvas</button>
+    <label for="colorPicker">Brush Color:</label>
+    <input type="color" id="colorPicker" value="#000000">
+    <label for="backgroundColorPicker">Canvas Color:</label>
+    <input type="color" id="backgroundColorPicker" value="#ffffff">
+    <label for="lineWidth">Brush Thickness:</label>
+    <select id="lineWidth">
+      <option value="2">Thin</option>
+      <option value="5" selected>Medium</option>
+      <option value="10">Thick</option>
+    </select>
+    <button id="eraser">Eraser</button>
+  </div>
+  <canvas id="whiteboard"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
